@@ -1,12 +1,6 @@
 sudo: false
 dist: trusty
 
-env:
-  global:
-  - MAIN=main
-script:
-  - ./script
-
 jobs:
   include:
     - stage: deploy
